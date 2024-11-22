@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* apply a global font family */
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -15,21 +15,25 @@ body {
   transition: 0.4s ease-out;;
 }
 
+/*styling for warm temperature background*/
 .app.warm {
   background-image:url('./assets/warm.jpg');
 }
 
+/*main container styling with a gradient background overlay*/
 main {
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
   padding: 25px;
 }
 
+/*styling for the search box container*/
 .search-box {
   width: 100%;
   margin: 0 0 75px;
 }
 
+/*change background color when the search bar is focused*/
 .search-box .search-bar {
   display: block;
   width: 100%;
@@ -63,6 +67,7 @@ main {
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 
+/*styling for the date text*/
 .location-box .date {
   color: #FFF;
   font-size: 20px;
@@ -76,6 +81,7 @@ main {
   text-align: center;
 }
 
+/*styling for the temperature display*/
 .weather-box .temp {
   position: relative;
   display: inline-block;
@@ -93,7 +99,7 @@ main {
   text-align: center;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
-
+/*styling for the weather description*/
 .weather-box .weather {
   color: #FFF;
   font-size: 48px;
